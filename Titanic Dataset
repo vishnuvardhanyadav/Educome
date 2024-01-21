@@ -1,0 +1,16 @@
+// visit the google colab amd open new note book in that write the following commands to explore a dataframe
+import pandas as pd  // importing pandas library 
+// visit any dataset from some source that you need to explore and copy the path that contains raw file
+// if you are visiting csv file then write read_csv,its a 
+pd.read_csv('https://github.com/YBI-Foundation/Dataset/raw/main/Titanic.csv') 
+
+// suppose you need to give name to this dataset
+  titanic = pd.read_csv('https://github.com/YBI-Foundation/Dataset/raw/main/Titanic.csv')
+  // you need to find the first rows of the dataset
+  titanic.head()  // it will return first five rows in the dataset  indexing from 0 to 4
+  // you need to find the last rows of the dataset
+  titanic.tail() // it will return last five rows in the dataset 
+  // you need to describe the dataset
+  titanic.describe() 
+  // To find the how many columns and rows  are there in data set 
+  titanic.shape()
