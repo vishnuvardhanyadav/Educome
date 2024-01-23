@@ -1,5 +1,6 @@
 // visit the google colab amd open new note book in that write the following commands to explore a dataframe
-import pandas as pd  // importing pandas library 
+import pandas as pd 
+// importing pandas library 
 // visit any dataset from some source that you need to explore and copy the path that contains raw file
 // if you are visiting csv file then write read_csv,its a 
 pd.read_csv('https://github.com/YBI-Foundation/Dataset/raw/main/Titanic.csv') 
